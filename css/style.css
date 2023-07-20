@@ -160,6 +160,7 @@ menu bar
     position: absolute;
     top: 15px;
     left: 15px;
+    display: none;
 }
 
 /*----------------------------------------------------------------------------
@@ -1505,6 +1506,10 @@ SMART PHONE RESPONSIVE
         z-index: 99;
         opacity: 0;
         visibility: hidden;
+    }
+
+    #nav .logo {
+        display: block;
     }
 
     #nav .nav_flex {
