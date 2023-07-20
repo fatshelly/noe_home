@@ -94,14 +94,14 @@ menu bar
 ------------------------------------------------------------------------------*/
 
 .menu_bar {
-    position: absolute;
+    position: fixed;
     top: 20px;
     right: 0;
     cursor: pointer;
     width: 45px;
     height: 45px;
     transition: all .6s;
-    z-index: 999;
+    z-index: 99;
 }
 
 .menu_bar::before {
@@ -153,6 +153,13 @@ menu bar
     left: 0;
     opacity: 1;
     visibility: visible;
+}
+
+#nav .logo {
+    width: 100px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
 }
 
 /*----------------------------------------------------------------------------
